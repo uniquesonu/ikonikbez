@@ -16,6 +16,7 @@ import Dashboard from "./Components/dashboard";
 import Listing from "./Components/listing";
 import Order from "./Components/order";
 import Order_detail from "./Components/order_detail";
+import ListingDetails from "./Components/ListingDetails";
 
 function App() {
   return (
@@ -23,10 +24,10 @@ function App() {
       <Router>
         <Navbar />
         <div className="bg-[#FEF0DC] flex">
-          <div className="flex ml-2">
+          <div className="flex pl-2">
             <SideBar />
           </div>
-          <div className="">
+          <div className="w-full">
             <Routes>
               <Route path="/dashboard" element={<Dashboard />} />
 
@@ -35,6 +36,7 @@ function App() {
               <Route path="/order" element={<Order />} />
 
               <Route path="/order_detail" element={<Order_detail />} />
+              <Route path="/listing_detail" element={<ListingDetails />} />
             </Routes>
           </div>
         </div>

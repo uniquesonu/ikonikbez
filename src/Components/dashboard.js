@@ -8,7 +8,7 @@ import React from 'react';
 export default function Dashboard() {
   return (
     <>
-          <div className="grid md:grid-cols-sidebar w-auto border-solid ml-[15px]">
+          <div className="grid md:grid-cols-sidebar w-full border-solid ml-[15px]">
             <div className="border-none bg-[#FEF0DC]">
 
               <a className="flex items-center py-2 px-8 mx-4 bg-[#A95F44] text-black border-solid border-2 border-black rounded-md " href="#">
